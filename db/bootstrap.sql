@@ -39,7 +39,7 @@ CREATE TABLE `dv_votes` (
 INSERT INTO `daily_voice`.`dv_images`
 (`ID`,`TITLE`, `URL`, `LIKES`, `DISLIKES`, `LAST_MODIFY_DT`)
 VALUES
-(1, "Don't you love this photo 1", "/public/img/cats/cat1.jpg", 0, 0, now()),
+(1, "Don't you love this photo 1", "/public/img/cats/cat1.jpg", 1, 0, now()),
 (2, "Don't you love this photo 2", "/public/img/cats/cat2.jpg", 0, 0, now()), 
 (3, "Don't you love this photo 3", "/public/img/cats/cat3.jpg", 0, 0, now()), 
 (4, "Don't you love this photo 4", "/public/img/cats/cat4.jpg", 0, 0, now()),
