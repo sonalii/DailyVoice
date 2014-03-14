@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DailyVoice Image Voting Demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EDGE" />
+
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+	<!-- start: outer container -->
+	<div class="container">
+
+		<!-- start: image title row -->
+		<div class="grid" style="border-top: 3px solid red;">
+			<div class="col-1">
+				<div class="module title">
+					<h1>IMAGE TITLE</h1>
+				</div>
+			</div>
+		</div>
+		<!-- end: image title row -->
+
+		<!-- start:  prev - image - next row -->
+		<div class="grid">
+			<div class="col-1h-3">
+				<div class="center-container nav-container">
+					<div class="absolute-center nav-buttons">
+						<div class="module">
+							<a href="#" class="">
+								<img src="img/prev.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-2-3">
+				<span class="vote_image">
+					<img src="img/cat1.jpg" >
+				</span>
+			</div>
+
+			<div class="col-1h-3">
+				<div class="center-container nav-container">
+					<div class="absolute-center nav-buttons">
+						<div class="module">
+							<a href="#" class="">
+								<img src="img/next.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end  prev - image - next row -->
+
+		<!-- start: vote row -->
+		<div class="grid">
+			<div class="col-1">
+				<div class="module vote-stats">
+					<table>
+						<tr>
+							<td>80%</td>
+							<td><a href="#"><img src="img/up.png"></a></td>
+							<td><a href="#"><img src="img/down.png"></a></td>
+							<td>20%</td>
+						</tr>
+					</table>
+					<!--<div class="grid">
+						<div class="col-1-4 center-cell">80%</div>
+						<div class="col-1-4 center-cell"><img src="img/up.png"></div>
+						<div class="col-1-4 center-cell"><img src="img/down.png"></div>
+						<div class="col-1-4 center-cell">20%</div>
+					</div>-->
+				</div>
+			</div>
+		</div>
+		<!-- end: vote row -->
+
+	</div>
+	<!-- end: outer container -->
+
+</body>
+</html>

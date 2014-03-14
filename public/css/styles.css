@@ -1,0 +1,95 @@
+@import "grid.css";
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	height: 100%;
+	color: #999999;
+	font-family: "Arial Bold";
+	background: #f5f5ed;
+}
+
+img {
+	border: 0;
+}
+
+.container {
+	background: #FFF;
+	text-align: center;
+	margin: auto;
+	min-height: 100px;
+	box-shadow: 6px 0px 5px -5px #999, 
+			   -6px 0px 5px -5px #999;
+	behavior: url(css/PIE.htc);
+	width: 980px; 
+	min-height: 100%;
+}
+
+.title {
+}
+
+.center-container {
+	position:relative;
+	width: 100%;
+}
+
+.absolute-center {
+	position:absolute; 
+	top:50%;
+	width: 100%;
+}
+
+.nav-container {
+	height: 279px;
+}
+
+.nav-buttons {
+	height: 47px;
+}
+
+.nav-buttons img {
+	height: 47px;
+	width: 47px;
+	border: 0px;
+}
+
+.vote_image {
+	display: inline-block;
+	border: solid 1px #BDBED9;
+	background-color:#F5F5F8;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+
+	 height: 279px;
+	 width: 496px;
+}
+
+.vote_image img {
+	height: 100%;
+	width: 100%;
+	border-radius:6px;
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+}
+
+.vote-stats {
+	padding-top: 20px;
+}
+
+.vote-stats table {
+	width: 100%;
+}
+
+.vote-stats td {
+	font-size: 25px;
+	text-align: center;
+	vertical-align:middle;
+}
+
+
+.voting-cell {
+}
